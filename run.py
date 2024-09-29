@@ -16,7 +16,7 @@ if os.path.exists(nonce_file):
     with open(nonce_file, 'r') as file:
         nonce = file.read().strip()
 else:
-    nonce = "1289965169659426784"  # change middle number +1 every time
+    nonce = "1289965269659426784"  # change middle number +1 every time
     with open(nonce_file, 'w') as file:
         file.write(nonce)
 
@@ -31,7 +31,7 @@ for _ in range(324):  # Loop exactly 324 times
 
         data = {
             "mobile_network_type": "wifi",
-            "content": "AIf le",
+            "content": "Arcane is a bot with to set up custom commands. These commands can respond with custom messages in a public channel. They can contain formatting Arcane Premium. Leveling If leveling is enabled, users gain XP when they send messages or talk in voice chats (Premium Only). Users will level up at specific XP thresholds, at which point an announcement is sent in a custom set channel or in a DM. XP for server members is recorded and listed on a server leaderboard, which can be found by entering the leaderboard command. To avoid spamming, earning XP is limited to 1 message per minute. Use the !rank command to see any user' that unlocks exclusive features. These include: - 12 Hour message logs - Fast logs (Near instant) - Unlimited Reaction roles - Youtube Alerts (5) - Unlimited custom commands - Voice leveling - Custom backgrounds - Custom XP values - Higher Uptime - Trivia Arcane is written in the Rust programming languageLeveling Calculator Level: 20 Messages: Average: 759 Max: 1,367 Min: 513 Required XP: 20,500 Time: If you sent a message every 60 seconds: 12 hours, 39 minutes Realisticlly: 5 days, 19 hours, 9 minutes* -# Assuming you start from level 0. will be able to go up levels too quickly. I understand this ? -You should give 1-4 EXP per 10 word. Level 1 = 120 exp and everLeveling Calculator Level: 20 Messages: Average: 759 Max: 1,367 Min: 513 Required XP: 20,500 Time: If you sent a message every 60 seconds: 12 hours, 39 minutes Realisticlly: 5 days, 19 hours, 9 minutes* -# Assuming you start from level 0. Time is not guaranteed and the realistic time is 2000words -# <https://arcaLeveling Calculator Level: 20 Messages: Average: 759 Max: 1,367 Min: 513 Required XP: 20,500 Time: If you sent a message every 60 seconds: 12 hours, 39 minutes Realisticlly: 5 days, 19 hours, 9 minutes* - 2000words Arcane is a bot with to set up custom commands. These commands can respond with custom messages in a public channel. They can contain formatting Arcane Premium. Leveling If le",
             "nonce": nonce,
             "tts": False,
             "flags": 0
