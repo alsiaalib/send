@@ -16,7 +16,7 @@ if os.path.exists(nonce_file):
     with open(nonce_file, 'r') as file:
         nonce = file.read().strip()
 else:
-    nonce = "1289965369659426784"  # change middle number +1 every time
+    nonce = "1289965469659426784"  # change middle number +1 every time
     with open(nonce_file, 'w') as file:
         file.write(nonce)
 
